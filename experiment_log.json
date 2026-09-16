@@ -162,5 +162,16 @@
     "changes": ["Apply ROI segmentation to auto create missing ROI samples", "Use Dual ResNet-50 on dataset_v2", "Use 0.7 dropout for pattern extract", "Change learning rate to lr=0.0001", "Train on 20 Epochs (13 epochs)"],
     "problem": "Auto ROI segementation just applied in dataset 2 that why to much samples are still missing ROI, Very less amount of data for Dual ResNet-50 thats why overfit appear",
     "solution": "Apply the ROI on extra images to solve missing ROI problem, Use/Create Red Free Fundus image for more smaple space without to much variation"
+  },
+  {
+    "date": "2026-09-01",
+    "script_file": "gla_p2_in1.ipynb",
+    "model_file": "",
+    "focus": "code for gla_p2",
+    "shorts": [],
+    "accuracy": 0,
+    "changes": ["Download the PAPILA Dataset from my kaggle", "Physically examine the dataset", "Analysis the dataset and all samples for vision transformer"],
+    "problem": "Dataset contain excel file is not properly set, Mislead create filename mismatch and corrupt analysis, Contain just 488 samples of 2 eyes which is very small for ViTs",
+    "solution": "Fix the dataset analysis, Need to check point for early glaucoma prediction possibility, dataset prepare, Need other dataset merge for ViTs."
   }
 ]

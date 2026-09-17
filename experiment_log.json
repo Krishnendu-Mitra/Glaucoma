@@ -179,7 +179,7 @@
     "script_file": "gla_p2_in2.ipynb",
     "model_file": "",
     "focus": "code for gla_p2",
-    "shorts": [],
+    "shorts": ["gla_p2_diss.png"],
     "accuracy": 0,
     "changes": ["Fix the excel file reading for analysis dataset", "Remove first to 2 row from excel file", "Found missing images", "Show the datadistribution", "Create Clean PAPILA dataset and push it to kaggle"],
     "problem": "PAPILA dataset contain very small amount of samples like 488, Very small quality for ViTs, augmentation not help to recover, Need other dataset merge for train test",

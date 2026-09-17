@@ -173,5 +173,16 @@
     "changes": ["Download the PAPILA Dataset from my kaggle", "Physically examine the dataset", "Analysis the dataset and all samples for vision transformer"],
     "problem": "Dataset contain excel file is not properly set, Mislead create filename mismatch and corrupt analysis, Contain just 488 samples of 2 eyes which is very small for ViTs",
     "solution": "Fix the dataset analysis, Need to check point for early glaucoma prediction possibility, dataset prepare, Need other dataset merge for ViTs."
+  },
+  {
+    "date": "2026-09-16",
+    "script_file": "gla_p2_in2.ipynb",
+    "model_file": "",
+    "focus": "code for gla_p2",
+    "shorts": [],
+    "accuracy": 0,
+    "changes": ["Fix the excel file reading for analysis dataset", "Remove first to 2 row from excel file", "Found missing images", "Show the datadistribution", "Create Clean PAPILA dataset and push it to kaggle"],
+    "problem": "PAPILA dataset contain very small amount of samples like 488, Very small quality for ViTs, augmentation not help to recover, Need other dataset merge for train test",
+    "solution": "Download and analysis other datasets like RIM-ONE or other to merge it with PAPILA, But may compromise with early detection."
   }
 ]
